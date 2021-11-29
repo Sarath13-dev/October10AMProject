@@ -28,8 +28,11 @@ public class ClassA {
 		txtUsername.sendKeys(username);
 		WebElement txtPassword = driver.findElement(By.id("pass"));
 		txtPassword.sendKeys(password);
+		System.out.println("work done by Dev");
+		System.out.println("First committed work");
 		System.out.println("Work done by perf");
 		System.out.println("working fine");
+
 	}
 	
 	
